@@ -51,7 +51,8 @@ body {
   color: var(--txt-dark-cl);
 }
 
-.section-title {
+.title-about,
+.title-team {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -132,7 +133,7 @@ letter-spacing: 0.02em;
 
 /* Features */
 
-.title-feature {
+.subtitle-feature {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -140,11 +141,11 @@ letter-spacing: 0.02em;
 
 /* Team */
 
-.section-team {
+.team {
   background-color: var(--team-btn-bg-cl);
 }
 
-.title-team {
+.subtitle-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -194,7 +195,7 @@ letter-spacing: 0.02em;
   background-color: var(--accent-txt-cl);
 }
 
-.title-portfolio {
+.subtitle-portfolio {
   font-size: 18px;
   line-height: 2.0;
   letter-spacing: 0.06em;
